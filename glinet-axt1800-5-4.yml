@@ -54,3 +54,4 @@ packages:
   - luci-app-ddns
   - luci-app-wrtbwmon
   - luci-app-transmission
+  - luci-app-frpc
