@@ -20,7 +20,7 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 255c7e4978e675af52b58db62f934044204cd8b4
+    revision: c54328b6119bb9a88c6f883943e8fd1bb1cbdf16
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
@@ -37,9 +37,6 @@ include:
   - wifi-ax
 packages:
   - wget-ssl
-  - luci-theme-argon
-  - luci-app-argon-config
-  - luci-app-store
   - luci-app-ramfree
   - luci-app-wol
   - luci-app-diskman
@@ -48,9 +45,11 @@ packages:
   - luci-app-zerotier
   - luci-app-turboacc
   - luci-app-appfilter
+  - luci-app-sqm
   - luci-app-ttyd
+  - luci-app-unblockneteasemusic
   - luci-app-ssr-plus
   - luci-app-aliddns
   - luci-app-ddns
   - luci-app-wrtbwmon
-  - luci-app-frpc
+  - luci-app-transmission
