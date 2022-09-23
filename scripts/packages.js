@@ -137,10 +137,10 @@
   //   name: 'luci-app-jd-dailybonus',
   //   desc: '京东签到服务',
   // },
-  // {
-  //   name: 'luci-app-frpc',
-  //   desc: 'frpc 网络代理',
-  // },
+  {
+    name: 'luci-app-frpc',
+    desc: 'frpc 网络代理',
+  },
   // {
   //   name: 'luci-app-frps',
   //   desc: 'frps 网络代理',
