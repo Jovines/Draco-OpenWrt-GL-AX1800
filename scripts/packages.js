@@ -5,18 +5,18 @@
  * @desc app 描述
  */
  module.exports = [
-  {
-    name: 'luci-theme-argon',
-    desc: 'argon主题',
-  },
-  {
-    name: 'luci-app-argon-config',
-    desc: 'argon主题设置',
-  },
-  {
-    name: 'luci-app-store',
-    desc: '应用商店',
-  },
+  // {
+  //   name: 'luci-theme-argon',
+  //   desc: 'argon主题',
+  // },
+  // {
+  //   name: 'luci-app-argon-config',
+  //   desc: 'argon主题设置',
+  // },
+  // {
+  //   name: 'luci-app-store',
+  //   desc: '应用商店',
+  // },
   {
     name: 'luci-app-ramfree',
     desc: '释放内存',
@@ -65,10 +65,10 @@
   //   name: 'luci-app-samba4',
   //   desc: 'samba4文件共享',
   // },
-  // {
-  //   name: 'luci-app-sqm',
-  //   desc: '流量智能队列管理(QOS)',
-  // },
+  {
+    name: 'luci-app-sqm',
+    desc: '流量智能队列管理(QOS)',
+  },
   // {
   //   name: 'luci-app-advancedsetting',
   //   desc: '系统高级设置',
@@ -77,10 +77,10 @@
     name: 'luci-app-ttyd',
     desc: 'ttyd 终端',
   },
-  // {
-  //   name: 'luci-app-unblockneteasemusic',
-  //   desc: '解锁网易云音乐 (无界面)',
-  // },
+  {
+    name: 'luci-app-unblockneteasemusic',
+    desc: '解锁网易云音乐 (无界面)',
+  },
   // {
   //   name: 'luci-app-syncdial',
   //   desc: '多拨虚拟网卡（需要光猫支持多拨）',
@@ -129,18 +129,18 @@
   //   name: 'luci-app-serverchan',
   //   desc: '微信/Telegram推送',
   // },
-  // {
-  //   name: 'luci-app-transmission',
-  //   desc: 'BT下载工具',
-  // },
+  {
+    name: 'luci-app-transmission',
+    desc: 'BT下载工具',
+  },
   // {
   //   name: 'luci-app-jd-dailybonus',
   //   desc: '京东签到服务',
   // },
-  {
-    name: 'luci-app-frpc',
-    desc: 'frpc 网络代理',
-  },
+  // {
+  //   name: 'luci-app-frpc',
+  //   desc: 'frpc 网络代理',
+  // },
   // {
   //   name: 'luci-app-frps',
   //   desc: 'frps 网络代理',
