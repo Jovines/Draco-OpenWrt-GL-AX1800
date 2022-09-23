@@ -151,7 +151,7 @@ jobs:
         touch release.txt
         echo "## 📦‍ 固件下载 | GLINET AXT1800 5.4" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "- 🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
-        echo -e "## ✨ 主要功能\n1. argon主题\n2. argon主题设置\n3. 应用商店\n4. 释放内存\n5. wol 网络唤醒\n6. 磁盘管理工具\n7. smartdns DNS防污染\n8. aria2下载工具\n9. ZeroTier内网穿透\n10. Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)\n11. 应用过滤\n12. ttyd 终端\n13. ssr-plus 代理软件\n14. 阿里云ddns插件\n15. 动态域名 DDNS\n16. 实时流量监测\n17. frpc 网络代理" >> release.txt
+        echo -e "## ✨ 主要功能\n1. 释放内存\n2. wol 网络唤醒\n3. 磁盘管理工具\n4. smartdns DNS防污染\n5. aria2下载工具\n6. ZeroTier内网穿透\n7. Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)\n8. 应用过滤\n9. 流量智能队列管理(QOS)\n10. ttyd 终端\n11. 解锁网易云音乐 (无界面)\n12. ssr-plus 代理软件\n13. 阿里云ddns插件\n14. 动态域名 DDNS\n15. 实时流量监测\n16. BT下载工具" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
