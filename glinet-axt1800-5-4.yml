@@ -20,15 +20,15 @@ feeds:
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 77c003d961bed4ddc8a57233bdfd158c75d9128d
+    revision: 3c9105ddfb1b47594cd1ded0e9d4d601f9731d7d
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: 9cae72ce3063cc35714eaba63333d072bc578c3e
+    revision: 60ab741c0da35c9b2781baeb4d133475e637eeb1
   - name: kenzok8_small
     uri: https://github.com/kenzok8/small.git
     branch: master
-    revision: 26a97a410f3e727249e27fcbc6678a7121a2a5be
+    revision: ace37f762a36e29c3dbb4d4b87084f547a1b4127
   - name: jd_dailybonus
     uri: https://github.com/jerrykuku/luci-app-jd-dailybonus
     branch: master
@@ -46,12 +46,17 @@ packages:
   - luci-app-zerotier
   - luci-app-turboacc
   - luci-app-appfilter
+  - luci-app-samba4
   - luci-app-sqm
+  - luci-app-advancedsetting
   - luci-app-ttyd
   - luci-app-unblockneteasemusic
   - luci-app-ssr-plus
   - luci-app-aliddns
   - luci-app-ddns
+  - luci-app-filetransfer
+  - luci-app-ddnsto
   - luci-app-wrtbwmon
+  - luci-app-serverchan
   - luci-app-transmission
   - luci-app-frpc
