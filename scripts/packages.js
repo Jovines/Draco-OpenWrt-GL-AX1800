@@ -69,10 +69,10 @@
     name: 'luci-app-sqm',
     desc: '流量智能队列管理(QOS)',
   },
-  // {
-  //   name: 'luci-app-advancedsetting',
-  //   desc: '系统高级设置',
-  // },
+  {
+    name: 'luci-app-advancedsetting',
+    desc: '系统高级设置',
+  },
   {
     name: 'luci-app-ttyd',
     desc: 'ttyd 终端',
@@ -105,14 +105,14 @@
   //   name: 'luci-app-eqos',
   //   desc: '依IP地址限速',
   // },
-  // {
-  //   name: 'luci-app-filetransfer',
-  //   desc: '文件传输',
-  // },
-  // {
-  //   name: 'luci-app-ddnsto',
-  //   desc: 'DDNSTO 内网穿透',
-  // },
+  {
+    name: 'luci-app-filetransfer',
+    desc: '文件传输',
+  },
+  {
+    name: 'luci-app-ddnsto',
+    desc: 'DDNSTO 内网穿透',
+  },
   // {
   //   name: 'luci-app-mwan3',
   //   desc: 'MWAN3负载均衡',
@@ -125,10 +125,10 @@
     name: 'luci-app-wrtbwmon',
     desc: '实时流量监测',
   },
-  // {
-  //   name: 'luci-app-serverchan',
-  //   desc: '微信/Telegram推送',
-  // },
+  {
+    name: 'luci-app-serverchan',
+    desc: '微信/Telegram推送',
+  },
   {
     name: 'luci-app-transmission',
     desc: 'BT下载工具',
